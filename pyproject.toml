@@ -1,0 +1,9 @@
+[project]
+name = "kafka-mcp"
+version = "0.1.0"
+description = "MCP Server for Kafka"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.9.4",
+]
